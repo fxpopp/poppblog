@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Der Urlaub beginnt bei Wimpie's — Poppblog</title>
+        <meta name="description" content="Lange Fahrt, viel Stau (Antwerpen), aber Wimpie rettet den Tag!">
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "blogPost",
+              "name": "Der Urlaub beginnt bei Wimpie's",
+              "author": {
+                "@type": "Person",
+                "name": "Felix"
+              },
+              "datePublished": "2024-03-23",
+              "description": "Lange Fahrt, viel Stau (Antwerpen), aber Wimpie rettet den Tag!"
+            }
+        </script>
+        <link rel="stylesheet" href="/css/tailwind.css">
+        
+
+
+<style>
+    :root{
+      --font-display: 'Inter', 'sans-serif' !important;
+      --font-body: 'Inter', 'sans-serif' !important;
+    }
+</style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.6.0/inter.min.css" rel="stylesheet">
+
+
+
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="/js/site.js"></script>
+    </head>
+    <body class="bg-white text-black font-body leading-normal personality-formal">
+        <nav x-data="{searching: false}">
+    <div class="max-w-5xl mx-auto px-3 py-3 flex items-center justify-between h-16">
+        <a href="/" class="font-bold text-xl hover:text-hot-pink" x-show="! searching">Poppblog</a>
+        <button class="hover:text-hot-pink transition-all duration-100 outline-none" @click="searching = true; $nextTick(() => { $refs.search.focus() })" aria-label="Search the site">
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 24 24" width="24" height="24"><g transform="matrix(1,0,0,1,0,0)"><path d="M15.238,14.146a.25.25,0,0,1-.03-.316,5.05,5.05,0,1,0-1.381,1.381.25.25,0,0,1,.316.03l2.535,2.534a.784.784,0,0,0,1.095,0,.774.774,0,0,0,0-1.094Zm-4.206.373a3.484,3.484,0,1,1,3.484-3.484A3.488,3.488,0,0,1,11.032,14.519Z" fill="currentColor" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path><path d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10.011,10.011,0,0,1,12,22Z" fill="currentColor" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path></g></svg>
+        </button>
+        <form action="/search" x-show="searching" x-cloak class="flex-1">
+            <input
+                name="q"
+                type="text"
+                class="w-full outline-none px-2 py-1 ml-3"
+                placeholder="Search for stuff"
+                x-on:blur="searching = false"
+                @keydown.enter="search"
+                @keydown.esc="searching = false"
+                x-show="searching"
+                x-ref="search"
+            />
+        </form>
+    </div>
+    <div class="w-full border-b-2 border-black squiggle"></div>
+</nav>
+
+        <main class="py-12 lg:py-20">
+            <article class="max-w-5xl mx-auto px-3">
+    <header class="mx-auto max-w-3xl text-center content">
+        <h1>Der Urlaub beginnt bei Wimpie's</h1>
+        <p>Lange Fahrt, viel Stau (Antwerpen), aber Wimpie rettet den Tag!</p>
+        <div class="my-12 flex items-center justify-center">
+            
+            <img src="https://www.gravatar.com/avatar/3be5a8e92a751fd518d38e4a2f0d8288?s=160" class="h-20 w-20 my-0 rounded-full mr-4">
+            
+            <div class="text-left">
+                
+                <div>
+                    <a class="font-bold no-underline" href="/authors/">
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-hot-pink to-purple-500">
+                            Felix
+                        </span>
+                    </a>
+                </div>
+                
+                <time datetime="2024-03-23">March 23rd, 2024</time>
+            </div>
+        </div>
+    </header>
+    <img class="rounded-xl" src="/assets/pxl_20240322_175801310~2.jpg" alt="">
+    <section class="max-w-3xl mx-auto py-6 lg:py-12 content">
+        
+            
+                <p>Letzte Woche war Wimpie&#039;s Snackpoint noch geschlossen. Aber heute an unserem ersten Urlaubstag waren wir da! Wahrscheinlich war heute die feierliche Saisoneröffnung und wir haben es geschafft dabei zu sein! Die Pommes waren lecker und doppelt frittiert. Die Frikandel waren auch doppelt friettiert, was sie - zusammen mit der Spezial Sauce - besonders lecker macht.   </p>
+            
+        
+    </section>
+
+    
+</article>
+
+        </main>
+        <nav class="py-6 lg:py-12 text-center">
+    <div class="text-sm">&copy; 2024 Poppblog – Powered by <a href="https://statamic.com?ref=starters-creek" class="hover:text-hot-pink">Statamic</a></div>
+    <div class="flex items-center justify-center mt-4">
+        
+    </div>
+</nav>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0" width="0">
+    <defs>
+        <filter id="squiggle">
+            <feTurbulence type="fractalNoise" id="turbulence" baseFrequency=".05" numOctaves="4"/>
+            <feDisplacementMap id="displacement" in="SourceGraphic" scale="4" />
+        </filter>
+    </defs>
+</svg>
+
+    </body>
+</html>
